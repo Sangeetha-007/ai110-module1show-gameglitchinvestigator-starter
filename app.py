@@ -1,13 +1,20 @@
 import random
 import streamlit as st
+from logic_utils import check_guess
 
 def get_range_for_difficulty(difficulty: str):
     if difficulty == "Easy":
         return 1, 20
+    # FIXME: Logic breaks here
+    # if difficulty == "Normal":
+    #     return 1, 100
+    # if difficulty == "Hard":
+    #     return 1, 50
+    #Updated code is here:
     if difficulty == "Normal":
-        return 1, 100
+         return 1, 50
     if difficulty == "Hard":
-        return 1, 50
+         return 1, 100
     return 1, 100
 
 
@@ -28,23 +35,6 @@ def parse_guess(raw: str):
 
     return True, value, None
 
-
-def check_guess(guess, secret):
-    if guess == secret:
-        return "Win", "🎉 Correct!"
-
-    try:
-        if guess > secret:
-            return "Too High", "📈 Go HIGHER!"
-        else:
-            return "Too Low", "📉 Go LOWER!"
-    except TypeError:
-        g = str(guess)
-        if g == secret:
-            return "Win", "🎉 Correct!"
-        if g > secret:
-            return "Too High", "📈 Go HIGHER!"
-        return "Too Low", "📉 Go LOWER!"
 
 
 def update_score(current_score: int, outcome: str, attempt_number: int):
@@ -77,11 +67,20 @@ difficulty = st.sidebar.selectbox(
     index=1,
 )
 
+# FIXME: Logic breaks here
+# attempt_limit_map = {
+#     "Easy": 6,
+#     "Normal": 8,
+#     "Hard": 5,
+# }
+# Updated code is here:
 attempt_limit_map = {
-    "Easy": 6,
-    "Normal": 8,
+    "Easy": 8,
+    "Normal": 6,
     "Hard": 5,
 }
+
+
 attempt_limit = attempt_limit_map[difficulty]
 
 low, high = get_range_for_difficulty(difficulty)
