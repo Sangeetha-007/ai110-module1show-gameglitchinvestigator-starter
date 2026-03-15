@@ -12,7 +12,7 @@ def parse_guess(raw: str):
     """
     raise NotImplementedError("Refactor this function from app.py into logic_utils.py")
 
-
+#FIX: Refactored logic into logic_utils.py from app.py using Claude
 def check_guess(guess, secret):
     """
     Compare guess to secret and return (outcome, message).

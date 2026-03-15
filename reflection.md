@@ -36,6 +36,8 @@ I disagree with this suggestion, but I will keep it in mind and come back to it.
   and what it showed you about your code.
 - Did AI help you design or understand any tests? How?
 
+I decided if a bug was really fixed by checking the logic myself first. Then making Claude AI confirm. One pytest I ran was to check the function test_winning_guess in test_game_logic.py. The error the pytest showed was a string/tuple error, therefore all 5 tests failed. AI did help me understand the test, and it helped make the change. I verified it before accepting its suggestions. 
+
 ---
 
 ## 4. What did you learn about Streamlit and state?
@@ -43,6 +45,7 @@ I disagree with this suggestion, but I will keep it in mind and come back to it.
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
 
 ---
+If I had to explain Streamlist "reruns" to a friend who has never used Streamlit, this is what I would say. Streamlit is a platform to host a web application. Web applications can have bugs/mistakes which we as the developer would need to fix with the help of AI. We would need to fix the code, then rerun it to test to see if we like and agree with what we see. Session state allows web applications to remember user data, for example inputs I used to play this game. 
 
 ## 5. Looking ahead: your developer habits
 
@@ -50,3 +53,5 @@ I disagree with this suggestion, but I will keep it in mind and come back to it.
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+
+One habit I want to reuse in all of my future projects, is how I wrote the code myself before asking Claude AI to check; instead of blankly asking it to generate the code. One thing I would do differently next time I would with AI on a coding task is prompt with more detail. After this project, I am glad, humans have to be involved with testing code, and making sure it works the way we want, rather than completely relying on the AI to do it all. I hope humans continue to test and validate, so we can make safe softwares, and not vibe code everything.  

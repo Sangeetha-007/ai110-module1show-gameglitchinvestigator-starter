@@ -10,7 +10,7 @@ def get_range_for_difficulty(difficulty: str):
     #     return 1, 100
     # if difficulty == "Hard":
     #     return 1, 50
-    #Updated code is here:
+    #FIX: Updated code is here. Code was updated by me and checked by Claude. 
     if difficulty == "Normal":
          return 1, 50
     if difficulty == "Hard":
@@ -73,7 +73,7 @@ difficulty = st.sidebar.selectbox(
 #     "Normal": 8,
 #     "Hard": 5,
 # }
-# Updated code is here:
+#FIX: Updated code is here. Logic was created by me and checked by Claude. 
 attempt_limit_map = {
     "Easy": 8,
     "Normal": 6,
