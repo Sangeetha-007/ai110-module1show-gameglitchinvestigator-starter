@@ -11,13 +11,15 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 In the game, I never guessed the number correctly. For a range of 1 to 100. I would guess 99, and it would say I need to go higher, only for the right number to be a lower number. That is one error I noticed. Another error I found is how the "hard" level is from 1 to 50, meanwhile the "normal" level is 1 to 100. It should be easier to guess a number correctly when there is a smaller range. 3rd error I found is how the "New Game" button doesn't work.
 ---
 
----
+--- hello
 
 ## 2. How did you use AI as a teammate?
 
 - Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
+
+
 
 ---
 
