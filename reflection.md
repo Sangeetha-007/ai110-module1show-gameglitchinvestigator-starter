@@ -19,7 +19,13 @@ In the game, I never guessed the number correctly. For a range of 1 to 100. I wo
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
 
-I used Claude for this project. 
+I used Claude for this project. It also agreed with me how the get_difficulty_range function is incorrect by giving the "hard" level a smaller range than "normal". I fixed the code manually myself and asked Claude to inspect it to see if it agrees with what I wrote. A misleading suggestion Claude gave me was how it said: 
+"  1. Wrong hint direction (lines 37–40): The messages are flipped. If guess > secret, the player guessed too high, so the hint should say "Go Lower" — but it says "Go
+  HIGHER". Same bug in reverse for the else branch.
+  2. TypeError fallback uses string comparison (lines 42–46): When a TypeError occurs, it converts guess to a string and compares using >. String comparison is
+  lexicographic (e.g., "9" > "10" is True), so this will give wrong results for numbers.
+  3. Same flipped hint bug in the except block (line 45): The same wrong-direction hint persists in the fallback path. "
+I disagree with this suggestion, but I will keep it in mind and come back to it. I think Claude is wrong but I will check it later. 
 
 ---
 
