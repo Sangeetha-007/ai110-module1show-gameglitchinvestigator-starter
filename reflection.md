@@ -9,7 +9,6 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
   (for example: "the hints were backwards").
 
 In the game, I never guessed the number correctly. For a range of 1 to 100. I would guess 99, and it would say I need to go higher, only for the right number to be a lower number. That is one error I noticed. Another error I found is how the "hard" level is from 1 to 50, meanwhile the "normal" level is 1 to 100. It should be easier to guess a number correctly when there is a smaller range. 3rd error I found is how the "New Game" button doesn't work.
----
 
 ---
 
@@ -54,4 +53,4 @@ If I had to explain Streamlist "reruns" to a friend who has never used Streamlit
 - What is one thing you would do differently next time you work with AI on a coding task?
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
 
-One habit I want to reuse in all of my future projects, is how I wrote the code myself before asking Claude AI to check; instead of blankly asking it to generate the code. One thing I would do differently next time I would with AI on a coding task is prompt with more detail. After this project, I am glad, humans have to be involved with testing code, and making sure it works the way we want, rather than completely relying on the AI to do it all. I hope humans continue to test and validate, so we can make safe softwares, and not vibe code everything.  
+One habit I want to reuse in all of my future projects, is how I wrote the code myself before asking Claude AI to check; instead of blankly asking it to generate the code. One thing I would do differently next time I would with AI on a coding task is prompt with more detail. After this project, I am glad, humans have to be involved with testing code, and making sure it works the way we want, rather than completely relying on the AI to do it all. I hope humans continue to test and validate, so we can make safe softwares, and not vibe code everything. 
