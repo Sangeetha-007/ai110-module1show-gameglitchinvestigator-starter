@@ -31,7 +31,7 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📸 Demo
 
-- [ ] [/Users/sangeetha/Desktop/game.png]
+- [ ] <img src="/Users/sangeetha/Desktop/game.png"
 
 ## 🚀 Stretch Features
 
