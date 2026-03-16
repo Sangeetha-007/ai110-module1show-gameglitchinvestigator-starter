@@ -31,8 +31,7 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📸 Demo
 
-- [ ] ![Game](/Users/sangeetha/Desktop/game.png)
-<img width="600" height="400" alt="game" src="/Users/sangeetha/Desktop/game.png" />
+- [ ] ![Game](https://github.com/Sangeetha-007/ai110-module1show-gameglitchinvestigator-starter/blob/main/images/game.png)
 
 ## 🚀 Stretch Features
 
