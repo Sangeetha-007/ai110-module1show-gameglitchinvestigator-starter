@@ -38,4 +38,21 @@ def check_guess(guess, secret):
 
 def update_score(current_score: int, outcome: str, attempt_number: int):
     """Update score based on outcome and attempt number."""
-    raise NotImplementedError("Refactor this function from app.py into logic_utils.py")
+    if outcome == "Win":
+        points = 100 - 10 * (attempt_number + 1)
+        if points < 10:
+            points = 10
+        return current_score + points
+    #FIX: Refactored logic into logic_utils.py from app.py using Claude
+    #FIX: Updated code is here. It doesnt make sense for score to increase if you guess to high, and score to decrease, if you guess to low. It should be the same deduction.    
+
+    if outcome in ("Too High", "Too Low"):
+        return max(0, current_score - 5)
+
+    return current_score
+
+
+
+
+
+

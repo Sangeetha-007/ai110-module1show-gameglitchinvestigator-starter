@@ -25,9 +25,12 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose. The game's purpose is to guess a number. There are 3 different levels and each level gives you different attempts at guessing the number. 
-- [ ] Detail which bugs you found. One bug I found was how it would say "go higher" or "go lower" incorrectly. Another bug was how there were more attempts for the "Normal" level compared to "Hard" level. 
-- [ ] Explain what fixes you applied. The fixes I applied are to fix the "go higher" and "go lower" statements correctly. Another bug I fixed is, to make the attempts decrease when the levels go up. Also, when I applied the pytest, there was an issue of strings being used, where it had to be tuples instead. 
+- [ ] Describe the game's purpose. 
+The game's purpose is to guess a number. There are 3 different levels and each level gives you different attempts at guessing the number. 
+- [ ] Detail which bugs you found. 
+One bug I found was how it would say "go higher" or "go lower" incorrectly. Another bug was how there were more attempts for the "Normal" level compared to "Hard" level. 
+- [ ] Explain what fixes you applied. 
+The fixes I applied are to fix the "go higher" and "go lower" statements correctly. Another bug I fixed is, to make the attempts decrease when the levels go up. Additionally, I fixed the scores. The original code was adding scores if you guessed to high, and decreasing scores if you guessed too low. I made the change to make it consistent and moved the code into logic_utils.py. Also, when I applied the pytest, there was an issue of strings being used, where it had to be tuples instead. 
 
 ## 📸 Demo
 
