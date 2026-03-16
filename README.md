@@ -38,4 +38,4 @@ The fixes I applied are to fix the "go higher" and "go lower" statements correct
 
 ## 🚀 Stretch Features
 
-- [ ] [If you choose to complete Challenge 4, insert a screenshot of your Enhanced Game UI here]
+- [ ] ![PyTests](https://github.com/Sangeetha-007/ai110-module1show-gameglitchinvestigator-starter/blob/main/images/tests.png)
